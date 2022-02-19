@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.js"></script>
+    <script defer src="js/script.js"></script>
+    <title>انتخاب واحد</title>
+  </head>
+  <body>
+
+    <!-- title-b -->
+
+    <header><h2 style="color: rgb(182, 189, 189);">انتخاب واحد ورودی 99 مهندسی کامپیوتر</h2></header>
+    <!-- buttons-i -->
+    <button class="lefts" id="scroll-left"><img class='left' src="img/pu.png" alt="pic" width="70px"></button>
+    <button class="rights" id="scroll-right"><img class='right' src="img/pic (2).png" alt="pic" width="70px"></button>
+    
+    <!-- main window-j -->
+    <div class="main2" dir="rtl">
+      <div class="prim main" >
+      
+        <!-- term 1 -->
+        <table class="section1" border="1">
+          <tr>
+            <th colspan="3" style="text-align: center">ترم 1</th>
+          </tr>
+          <tr>
+            <th>رشته</th>
+            <th>واحد</th>
+            <th>پیشنیاز و همنیاز</th>
+          </tr>
+          <tr>
+            <td class="subject rz1uw" ><button class="btn" id="rz1">ریاضی عمومی1</button></td>
+            <td class="rz1-">3</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td class="subject fz1uw" ><button class="btn" id="fz1">فیزیک1</button></td>
+            <td class="fz1-">3</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td class="subject mbcuw">
+              <button class="btn" id="mbc">مبانی کامپیوتر و برنامه سازي</button>
+            </td>
+            <td class="mbc-">3</td>
+            <td>-</td>
+          <tr>
+            <td class="subject eneuw">
+              <button class="btn" id="ene">زبان انگلیسی</button>
+            </td>
+            <td class="ene-">3</td>
+            <td class="">-</td>
+        
+          </tr>
+          <tr>
+            <td class="subject fauw">
+              <button class="btn" id="fa">زبان فارسی</button>
+            </td>
+            <td class="fa-">3</td>
+            <td>-</td>
+          </tr>
+            </td>
+          </tr>
+        </table>
+
+        <!-- term2 -->
+        <table class="section1" border="1">
+          <tr>
+            <th colspan="3" style="text-align: center">ترم 2</th>
+          </tr>
+          <tr>
+            <th>رشته</th>
+            <th>واحد</th>
+            <th>پیشنیاز و همنیاز</th>
+          </tr>
+          <tr>
+            <td class="subject rz2uw"><button class="btn" id="rz2">ریاضی عمومی2</button></td>
+            <td class="rz2-">3</td>
+            <td class="rz1m">ریاضی عمومی1</td>
+          </tr>
+          <tr>
+            <td class="subject fz2uw"><button class="btn" id="fz2">فیزیک2</button></td>
+            <td class="fz2-">3</td>
+            <td class="rz1m">ریاضی عمومی1</td>
+          </tr>
+          <tr>
+            <td class="subject moduw"><button class="btn"  id="mod">معادلات دیفرانسیل</button></td>
+            <td class="mod-">3</td>
+            <td class="rz1m">ریاضی عمومی1</td>
+          </tr>
+          <tr>
+            <td class="subject gosuw"><button class="btn"  id="gos">ریاضیات گسسته</button></td>
+            <td class="gos-">3</td>
+            <td class="hmnz">(ریاضی عمومی 1 و مبانی کامپیوتر)</td>
+          </tr>
+          <tr>
+            <td class="subject bspuw"><button class="btn" id="bsp">برنامه سازي پیشرفته</button></td>
+            <td class="bsp-">3</td>
+            <td class="mbcm">مبانی کامپیوتر</td>
+          </tr>
+          <tr>
+            <td class="subject kacuw"><button class="btn" id="kac">کارگاه کامپیوتر</button></td>
+            <td class="kac-">1</td>
+            <td class="mbcm">مبانی کامپیوتر</td>
+          </tr>
+          <tr>
+            <td class="subject tar1uw"><button class="btn" id="tar1">تربیت بدنی1</button></td>
+            <td class="tar1m">1</td>
+            <td>-</td>
+          </tr>
+        </table>
+        
+        <!-- term 3 -->
+        <table class="section1" border="1">
+          <tr>
+            <th colspan="3" style="text-align: center">ترم 3</th>
+          </tr>
+          <tr>
+            <th>رشته</th>
+            <th>واحد</th>
+            <th>پیشنیاز و همنیاز</th>
+          </tr>
+          <tr>
+            <td class="subject rzmuw"><button class="btn" id="rzm">ریاضیات مهندسی</button>
+              <td class="rzm-">3</td>
+            <td class="hmnz">ریاضی عمومی 2 و معادلات دیفرانسیل</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject azfzuw"><button class="btn" id="azfz">آزفیزیک2</button>
+              <td class="azfz-">1</td>
+            <td class="fz2m">فیزیک2</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject" class="meluw"><button class="btn" id="mel">مدارهاي الکتریکی</button>
+              <td class="mel-">3</td>
+            <td class="modm">معادلات دیفرانسیل</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject" class="manuw"><button class="btn" id="man">مدارهاي منطقی</button>
+              <td class="man-">3</td>
+            <td class="hmnz gosm">(ریاضیات گسسته)</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject skhuw"><button class="btn" id="skh">ساختمانهاي داده</button>
+              <td class="skh-">3</td>
+              <td class="hmnz">ریاضیات گسسته و برنامهسازيپیشرفته</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject omkhnuw"><button class="btn" id="omkhn">دانش خانواده و جمعیت</button>
+              <td class="omkhn-">2</td>
+            <td>-</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject enhuw"><button class="btn" id="enh">زبان تخصصی</button>
+            <td class="enh-">2</td>
+            <td class="enem">زبان انگلیسی</td>
+            </td>
+          </tr>
+        </table>
+
+        <!-- term 4 -->
+        <table class="section1" border="1">
+          <tr>
+            <th colspan="3" style="text-align: center">ترم 4</th>
+          </tr>
+          <tr>
+            <th>رشته</th>
+            <th>واحد</th>
+            <th>پیشنیاز و همنیاز</th>
+          </tr>
+          <tr>
+            <td class="subject paguw"><button class="btn" id="pag">پایگاه دادهها</button>
+              <td class="pag-">3</td>
+            <td class="skhm">ساختمانهاي داده</td>
+          </td>
+        </tr>
+          <tr>
+            <td class="subject amaruw"><button class="btn" id="amar">آمار و احتمالات مهندسی</button>
+              <td class="amar+">3</td>
+            <td class="rz2m">ریاضی عمومی 2</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject memaruw"><button class="btn" id="memar">معماري کامپیوتر</button>
+              <td class="memar-">3</td>
+            <td class="manm">مدارهاي منطقی</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject nazuw"><button class="btn" id="naz">نظریه زبانها و ماشینها</button>
+            <td class="naz-">3</td>
+              <td class="skhm">ساختمانهاي داده</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject tarhaluw"><button class="btn" id="tarhal">طراحی الگوریتمها</button>
+              <td class="tarhal-">3</td>
+              <td class="skhm">ساختمانهاي داده</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject azmdruw"><button class="btn" id="azmdr">آز مدارهاي منطقی و معماري کامپیوتر</button>
+            <td class="azmdr-">1</td>
+              <td class="hmnz">مدارهاي منطقی و (معماري کامپیوتر)</td>
+            </td>
+          </tr>
+        </table>
+        
+        <!-- term 5 -->
+        <table class="section1" border="1">
+          <tr>
+            <th colspan="3" style="text-align: center">ترم 5</th>
+          </tr>
+          <tr>
+            <th>رشته</th>
+            <th>واحد</th>
+            <th>پیشنیاز و همنیاز</th>
+          </tr>
+          <tr>
+            <td class="subject signaluw"><button class="btn" id="signal">سیگنالها و سیستمها</button>
+              <td class="signal-">3</td>
+              <td class="rzmm">ریاضیات مهندسی</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject trahcomuw"><button class="btn" id="trahcom">طراحی کامپیوتري سیستمهاي دیجیتال</button>
+            <td class="trahcom-">3</td>
+            <td class="memarm">معماري کامپیوتر</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject sysamuw"><button class="btn" id="sysam">سیستمهاي عامل</button>
+              <td class="sysam-">3</td>
+              <td class="hmnz">معماري کامپیوتر و ساختمانهاي داده</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject tarshuw"><button class="btn" id="tarsh">طراحی شیگراي سیستمها</button>
+              <td class="tarsh-">3</td>
+              <td class="bspm">برنامه سازي پیشرفته</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject osoluw"><button class="btn" id="osol">اصول طراحی کامپایلر</button>
+              <td class="osol-">3</td>
+              <td class="skhm">ساختمانهاي داده</td>
+          </td>
+          </tr>
+          <tr>
+            <td class="subject rizzauw"><button class="btn" id="rizza">ریزپردازنده و زبان اسمبلی</button>
+              <td class="rizza-">3</td>
+              <td class="memarm">معماري کامپیوتر</td>
+            </td>
+          </tr>
+        </table>
+
+        <!-- term 6 -->
+        <table class="section1" border="1">
+          <tr>
+            <th colspan="3" style="text-align: center">ترم 6</th>
+          </tr>
+          <tr>
+            <th>رشته</th>
+            <th>واحد</th>
+            <th>پیشنیاز و همنیاز</th>
+          </tr>
+          <tr>
+            <td class="subject aiuw"><button class="btn" id="ai">هوش مصنوعی و سیستمهاي خبره</button>
+              <td class="ai-">3</td>
+            <td class="skhm">ساختمانهاي داده</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject ravuw"><button class="btn" id="rav">روش پژوهش و ارائه</button>
+              <td class="rav-">3</td>
+              <td class="enhm">زبان تخصصی</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject tahsysuw"><button class="btn" id="tahsys">تحلیل و طراحی سیستمها</button>
+              <td class="tahsys-">3</td>
+              <td class="bspm">برنامه سازي پیشرفته</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject shabuw"><button class="btn" id="shab">شبکههاي کامپیوتري</button>
+              <td class="shab-">3</td>
+              <td class="sysamm">سیستمهاي عامل</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject zbnuw"><button class="btn" id="zbn">طراحی زبانهاي برنامه سازي</button>
+              <td class="zbn-">3</td>
+              <td class="osolm">اصول طراحی کامپایلر</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject" class="azsysamuw"><button class="btn" class="azsysam">آز سیستمهاي عامل</button>
+              <td class="azsysam-">1</td>
+              <td class="hmnz sysamm">(سیستمهاي عامل)</td>
+            </td>
+          </tr>
+          <tr>
+            <td class="subject azrizuw"><button class="btn" id="azriz">آز ریزپردازنده</button>
+              <td class="azriz-">1</td>
+              <td class="rizzm">ریزپردازنده و زبان اسمبلی</td>
+            </td>
+          </tr>
+        </table>
+        
+        <!-- term 7 -->
+        <table class="section1" border="1">
+          <tr>
+            <th colspan="3" style="text-align: center">ترم 7</th>
+          </tr>
+          <tr>
+            <th>رشته</th>
+            <th>واحد</th>
+            <th>پیشنیاز و همنیاز</th>
+          </tr>
+          <tr>
+          </td>
+          <td class="subject tamnoluw"><button class="btn" id="tamnol">تعامل انسان و کامپیوتر</button>
+          <td class="tamnol-">3</td>
+            <td class="tahsysm">تحلیل و طراحی سیستمها</td>
+          </tr>
+          <tr>
+            <td class="subject" class="mohnruw"><button class="btn" class="mohnr">مهندسی نرم افزار</button>
+            </td>
+            <td class="mohnr-">3</td>
+            <td class="tahsysm">تحلیل و طراحی سیستم ها</td>
+          </tr>
+          <tr>
+            <td class="subject mohinuw"><button class="btn" id="mohin">مهندسی اینترنت</button>
+            </td>
+            <td class="mohin-">3</td>
+            <td class="hmnz">شبکه هاي کامپیوتري و (پایگاه داده ها)</td>
+          </tr>
+          <tr>
+            <td class="subject azshabuw"><button class="btn" id="azshab">آز شبکه هاي کامپیوتري</button>
+            </td>
+            <td class="azshab-">1</td>
+            <td class="shabm">(شبکه هاي کامپیوتري)</td>
+          </tr>
+          <tr>
+              <td class="subject" >اختیاري</td>
+              <td >3</td>
+              <td class="">-</td>
+          </tr>
+          <tr>
+            <td class="subject" >یک آز اختیاري</td>
+            <td >1</td>
+            <td class="">-</td>
+          </tr>
+          <tr>
+            <td class="subject tar2uw"><button class="btn" id="tar2">تربیت بدنی 2</button></td>
+            <td class="tar2-">1</td>
+            <td class="tar1m">تربیت بدنی 1</td>
+          </tr>
+        </table>
+
+        <!-- term 8 -->
+        <table class="section1" border="1">
+          <tr>
+            <th colspan="3" style="text-align: center">ترم 8</th>
+          </tr>
+          <tr>
+            <th>رشته</th>
+            <th>واحد</th>
+            <th>پیشنیاز و همنیاز</th>
+          </tr>
+          <tr>
+            <td class="subject azmonuw"><button class="btn" id="azmon">آزمون نرم افزار</button>
+            </td>
+              <td class="azmon-">3</td>
+              <td class="tahsysm">تحلیل و طراحی سیستمها</td>
+          </tr>
+          <tr>
+            <td class="subject ravmohuw"><button class="btn" id="ravmoh">روشهاي رسمی در مهندسی نرم افزار</button>
+            </td>
+              <td class="ravmoh-">3</td>
+              <td class="tahsysm">تحلیل و طراحی سیستمها</td>
+          </tr>
+          <tr>
+              <td class="subject" >اختیاري</td>
+              <td class="">-</td>
+              <td >3</td>
+          </tr>
+          <tr>
+            <td class="subject" >یک آز اختیاري</td>
+            <td class="">-</td>
+            <td >1</td>
+          </tr>
+          <tr>
+            <td class="subject karuw"><button class="btn" id="kar">کارآموزي</button>
+            </td>
+              <td class="kar-">1</td>
+            <td class="">بعد از 80 واحد</td>
+          </tr>
+          <tr>
+            <td class="subject porjuw"><button class="btn" id="porj">پروژه نرم افزار</button>
+            </td>
+            <td class="porj-">3</td>
+            <td class="">بعد از 100 واحد</td>
+          </tr>
+        </table>
+
+        <div class="footer1">
+          <h3>توجه1: همنیازهاي دروس داخل پرانتز نوشته شده است</h3>
+          <h3>توجه2: دروس پیشنیاز یک درس باید قبل از اخذ آن درس در ترمهاي قبل پاس شده باشند</h3>
+          <h3>توجه3: دروس همنیاز یک درس یا باید قبل از اخذ آن درس در ترمهاي قبل پاس شده باشند و یا همزمان با آن درس اخذ گردند</h3>
+        </div>
+      </div>
+      <div class="sec hide">
+        <!-- tozihat -->
+          <table class="info">
+          <tr>
+            <th> از جدول دروس عمومی، دروس باید به صورت زیر پاس شوند:</th>
+          </tr>
+          <tr>
+            <td rowspan="5" style="text-align: right;">
+              <p> مبانی نظري اسلام دو درس به ارزش 4 واحد</p>
+              <p> اخلاق اسلامی یک درس به ارزش 2 واحد</p>
+              <p> انقلاب اسلامی  یک درس به ارزش 2 واحد</p>
+              <p> تاریخ تمدن اسلامی یک درس به ارزش 2 واحد</p>
+              <p> آشنایی با منابع اسلامی یک درس به ارزش 2 واحد </p>
+              <p style="color: red;">گذراندن درس تاریخ فرهنگ و تمدن ایران و اسلام براي دانشجویان ورودي سال 1391 به بعد الزامی است.</p>
+              <p style="color: red;">درس آشنایی با دفاع مقدس جزو دروس اختیاري گروه کارشناسی پیوسته کامپیوتر محسوب نمیشود</p>
+            </td>
+          </tr>
+          </table>
+          <div class="om">
+          <table class="section1" border="1">
+          <tr>
+            <th colspan="3">دروس عمومی</th>
+          </tr>
+          <tr>
+            <th>گرایش</th>
+            <th>درس</th>
+            <th>واحد</th>
+          </tr>
+          <tr>
+            <td rowspan="4">مبانی نظری اسلامی</td>
+            <td ><button class="btn">اندیشه اسلامی 1/ مبدأ و معاد</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">اندیشه اسلامی 2 / نبوت و امامت</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">انسان در اسلام</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">حقوق اجتماعی و سیاسی اسلام</button></td>
+            <td>2</td>
+          </tr>
+          </table>
+          
+          <!--      -->
+          <table class="section1" border="1">
+            <tr>
+              <th colspan="3">دروس عمومی</th>
+            </tr>
+            <tr>
+              <th>گرایش</th>
+              <th>درس</th>
+              <th>واحد</th>
+            </tr>
+          <tr>
+            <th rowspan="4">
+              اخلاق اسلامی
+            </th>
+            <td ><button class="btn">فلسفه اخلاق (با تکیه بر مباحث تربیتی)</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">اخلاق اسلامی (مبانی و مفاهیم)</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">آئین زندگی (اخلاق کاربردي)</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">عرفان عملی اسلامی</button></td>
+            <td>2</td>
+          </tr>
+
+          </table>
+          <!--      -->
+          <table class="section1" border="1">
+          <tr>
+            <th colspan="3">دروس عمومی</th>
+          </tr>
+          <tr>
+            <th>گرایش</th>
+            <th>درس</th>
+            <th>واحد</th>
+          </tr>
+          <tr>
+            <th rowspan="3">
+              اخلاق اسلامی
+            </th>
+            <td  ><button class="btn">انقلاب اسلامی ایران</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">آشنایی با قانون اساسی جمهوري اسلامی ایران</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">اندیشه سیاسی امام خمینی (ره)</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <th style="border-top-width: 3px;">گرایش</th>
+            <th style="border-top-width: 3px;">درس</th>
+            <th style="border-top-width: 3px;">واحد</th>
+          </tr>
+          <tr >
+            <td >تاریخ و تمدن اسلامی</td>
+            <td  ><button class="btn">تاریخ فرهنگ و تمدن اسلامی</button></td>
+            <td >2</td>
+          </tr>
+          <tr>
+            <th style="border-top-width: 3px;">گرایش</th>
+            <th style="border-top-width: 3px;">درس</th>
+            <th style="border-top-width: 3px;">واحد</th>
+          </tr>
+          <tr>
+            <td rowspan="2">آشنایی با مبانی اسلامی</td>
+            <td ><button class="btn">تفسیر موضوعی قرآن</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">تفسیر موضوعی نهج البلاغه</button></td>
+            <td>2</td>
+          </tr>
+          </table>
+          <!--       -->
+          <table class="section1" border="1">
+          <tr>
+            <th>گرایش</th>
+            <th>درس</th>
+            <th>واحد</th>
+          </tr>
+          <tr>
+            <td rowspan="6">  بقیه الزامی ها  </td>
+            <td ><button class="btn">زبان فارسی</button></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">زبان انگلیسی</button></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">تربیت بدنی 1</button></td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">تربیت بدنی 2</button></td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">دانش خانواده و جمعیت</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td ><button class="btn">آشنایی با دفاع مقدس</button></td>
+            <td>?</td>
+          </tr>
+          </table>
+        </div>
+          
+      </div>
+      <div class="history hide"> 
+        <!-- asli -->
+        <table class="section1" border="1">
+          <tr>
+            <th colspan="2" class="title">دروس اصلی</th>
+          </tr>
+          <tr>
+            <th>درس</th>
+            <th>واحد</th>
+          </tr>
+          <tr>
+            <td class="mbcuw"><button class="btn" id="mbc">مبانی کامپیوتر و برنامه سازي</button></td>
+            <td class="mbc-">3</td>
+          </tr>
+          <tr>
+            <td><button class="btn">مدارهاي الکتریکی</button></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td><button class="btn">ریاضیات گسسته</button></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td><button class="btn">برنامه سازي پیشرفته</button></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td><button class="btn">ساختمانهاي داده</button></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td><button class="btn">مدارهاي منطقی</button></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td><button class="btn">نظریه زبانها و ماشینها</button></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td><button class="btn">زبان تخصصی</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td><button class="btn">روش پژوهش و ارائه</button></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td><button class="btn">ریاضیات مهندسی</button></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td><button class="btn"></button></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><button class="btn"></button></td>
+            <td></td>
+          </tr>
+
+        </table>
+        <!-- paye -->
+        <table class="section1" border="1">
+          <tr>
+            <th colspan="3" class="title">دروس پایه</th>
+          </tr>
+          <tr>
+            <th> نام درس</th>
+            <th>واحد</th>
+          </tr>
+          <tr>
+            <td>ریاضی عمومی1</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>ریاضی عمومی2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>فیزیک1</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>فیزیک2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>آمار و احتمالات مهندسی</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>معادلات دیفرانسیل</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>کارگاه کامپیوتر</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>آزمایشگاه فیزیک 2</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td colspan="2"> 0/20</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- vahedsss-n -->
+    <div class="fixneeded">
+      <h3 id="crt">0/142</h3>
+      <p>این جدول بر اساس گرایش نرم افزار درست شده</p>
+    </div>
+    <div class="save">
+      <button class="saver">Save</button>
+    </div>
+  </body>
+</html>
+
+<tr>
+  <td class=""></td>
+  <td id=""></td>
+  <td class="subject" id=""><button class="btn" id=""></button>
+  </td>
+</tr>
